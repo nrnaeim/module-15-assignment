@@ -1,0 +1,20 @@
+{
+  "name": "module-15-assignment",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nrnaeim/module-15-assignment.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nrnaeim/module-15-assignment/issues"
+  },
+  "homepage": "https://github.com/nrnaeim/module-15-assignment#readme",
+  "description": ""
+}
