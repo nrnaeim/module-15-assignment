@@ -16,10 +16,10 @@
 //const  =require();
 
 exports.getRequest = async (req, res) => {
-  return res.status(200).send("“I am get request.”");
+  return res.status(200).send("I am get request.");
 };
 exports.postRequest = async (req, res) => {
-  return res.status(200).send("“I am post request.”");
+  return res.status(200).send("I am post request.");
 };
 
 exports.notFoundRequest = async (req, res) => {
