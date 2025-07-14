@@ -16,13 +16,12 @@
 //const  =require();
 
 export const getRequest = async (req, res) => {
-  res.status(200).send("“I am get request.”");
+  return res.status(200).send("“I am get request.”");
 };
 export const postRequest = async (req, res) => {
-  res.status(200).send("“I am post request.”");
+  return res.status(200).send("“I am post request.”");
 };
 
 export const notFoundRequest = async (req, res) => {
-  res.status(400).send("Opps! 404 page not found");
+  return res.status(400).send("Opps! 404 page not found");
 };
-
