@@ -12,10 +12,12 @@
 const express = require("express");
 
 //Local Dependencies
-const router = require("./routes/router");
+const { router } = require("./routes/router");
+const controllers = require("./controllers/controller");
 
 const app = express();
 
-app.use("api/v1", router);
+app.use("/api/v1", router);
+app.use(controllers.notFoundRequest);
 
 exports.app = app;
