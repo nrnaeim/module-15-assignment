@@ -16,5 +16,9 @@
     "url": "https://github.com/nrnaeim/module-15-assignment/issues"
   },
   "homepage": "https://github.com/nrnaeim/module-15-assignment#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.0",
+    "express": "^5.1.0"
+  }
 }
