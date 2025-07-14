@@ -15,13 +15,13 @@
 //Local Dependencies
 //const  =require();
 
-export const getRequest = async (req, res) => {
+exports.getRequest = async (req, res) => {
   return res.status(200).send("“I am get request.”");
 };
-export const postRequest = async (req, res) => {
+exports.postRequest = async (req, res) => {
   return res.status(200).send("“I am post request.”");
 };
 
-export const notFoundRequest = async (req, res) => {
+exports.notFoundRequest = async (req, res) => {
   return res.status(400).send("Opps! 404 page not found");
 };
