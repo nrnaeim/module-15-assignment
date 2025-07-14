@@ -19,7 +19,6 @@ const controller = require("../controllers/controller");
 const router = express.Router();
 
 router.get("/", controller.getRequest);
-router.post("/", controller.getRequest);
-router.all("*", controller.notFoundRequest);
+router.post("/", controller.postRequest);
 
 exports.router = router;
