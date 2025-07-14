@@ -22,4 +22,4 @@ router.get("/", controller.getRequest);
 router.post("/", controller.getRequest);
 router.all("*", controller.notFoundRequest);
 
-export default router;
+exports.router = router;
