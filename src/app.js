@@ -17,7 +17,7 @@ const controllers = require("./controllers/controller");
 
 const app = express();
 
-app.use("/api/v1", router);
+app.use("/", router);
 app.use(controllers.notFoundRequest);
 
 exports.app = app;
